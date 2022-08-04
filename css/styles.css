@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ====Navbar==== */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#navbar img {
+  height: 50px;
+  margin-left: 200px;
+}
+
+#navbar ul {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.25rem;
+}
+
+.sign {
+  float: right;
+  align-self: center;
+}
+
+.sign a {
+  background-color: #6f7b6d;
+  color: #fff;
+  border-radius: 40%;
+  margin-right: 250px;
+  padding: 10px;
+}
+
+.sign a:hover {
+  background-color: #81947d;
+}
+/* ========End of Navbar======== */
+
+/* ====Home==== */
+#home {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.home-text {
+  width: 30%;
+  margin-left: 200px;
+}
+
+.home-text h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+.home-text p {
+  padding-bottom: 30px;
+}
+
+.home-text img {
+  height: 50px;
+}
+
+.home-text a {
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.home-text a:hover {
+  background-color: orange;
+  border-radius: 10%;
+}
+
+.home-img img {
+  width: 700px;
+}
+/* ========End of Home======== */
+
+/* ====About==== */
+#About {
+  margin-top: 50px;
+  height: 100vh;
+}
+#About .About-img img {
+  width: 500px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#About .About-text {
+  margin-left: 50px;
+}
+/* ========End of About======== */
+
+/* ====tools==== */
+#tools {
+  margin-top: 90px;
+  background-color: #f4f6f3;
+  height: 500px;
+}
+
+#tools .tools-text {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#tools .tools-text h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#tools .tools-text p {
+  max-width: 300px;
+  margin-left: 40%;
+}
+
+#tools .tools-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#tools .tools-details .tools-box {
+  height: 250px;
+  width: 400px;
+  text-align: center;
+  padding-top: 30px;
+  transition: box-shadow 0.1s;
+}
+
+#tools .tools-details .tools-box:hover {
+  background-color: #fff;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  border-radius: 5%;
+}
+
+#tools .tools-details .tools-box img {
+  width: 100px;
+  transition: transform 2s;
+}
+
+#tools .tools-details .tools-box img:hover {
+  transform: rotate(360deg);
+}
+/* ========End of tools======== */
+
+/* ====journey==== */
+#journey {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+#journey .journey-img img {
+  margin-left: 50px;
+  width: 800px;
+}
+/* ========End of journey======== */
+
+/* ====goals==== */
+#goals .goals-img img {
+  width: 500px;
+  margin-left: 200px;
+}
+
+#goals .goals-text {
+  width: 30%;
+  margin-left: 100px;
+}
+
+#goals .goals-text h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#goals .goals-text p {
+  margin: 10px 25px 30px 10px;
+}
+/* ========End of goals======== */
+
+/* ====footer==== */
+footer {
+  background-color: #f4f6f3;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  height: 50px;
+  margin-left: 180px;
+}
+
+footer p {
+  margin-left: 180px;
+  font-size: 11px;
+}
+
+footer table {
+  margin-right: 180px;
+}
+
+footer table th,
+footer table td {
+  text-align: left;
+  padding-left: 23px;
+}
+
+footer table th {
+  font-size: 20px;
+}
+
+footer table td {
+  font-size: 14px;
+}
+/* ========End of footer======== */
